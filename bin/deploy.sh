@@ -1,2 +1,2 @@
 #!/bin/bash
-npx hs upload src CS\ Theme
+npx hs upload ../src CS\ Theme
