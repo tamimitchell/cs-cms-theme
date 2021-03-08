@@ -1,3 +1,3 @@
 #!/bin/bash
 ls
-npx hs upload src CS\ Theme
+npx hs upload src CSTheme
