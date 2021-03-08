@@ -1,6 +1,6 @@
-deployable: cms-theme-boilerplate
-repoName: cms-theme-boilerplate
-themePath: @hubspot/boilerplate
+deployable: cs-cms-theme
+repoName: cs-cms-theme-boilerplate
+themePath: CS\ Theme
 
 availableToScaffold: true
 availableToDownload: false

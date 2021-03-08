@@ -1,0 +1,12 @@
+team: hs-content-assets
+
+contributors:
+  - hs-cms-assets-io@hubinfra.com
+
+type: static_deployed_pointer
+
+description: ClockShark CMS Theme
+
+artifactBuildMetadata:
+  repository: cs-cms-theme
+  module: cs-cms-theme
