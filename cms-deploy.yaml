@@ -1,5 +1,5 @@
 deployable: cs-cms-theme
-repoName: cs-cms-theme-boilerplate
+repoName: cs-cms-theme
 themePath: CS\ Theme
 
 availableToScaffold: true
