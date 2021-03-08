@@ -9,16 +9,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.3
       - name: Use Node.js
-            uses: actions/setup-node@v1
-            with:
-              node-version: 10.x
-          - name: Install NPM deps
-            run: |
-                npm install
-          - name: Generate hubspot.config.yml and deploy
-            env:
-              HUBSPOT_PORTAL_ID: ${{ secrets.hubspot_portal_id }}
-              HUBSPOT_API_KEY: ${{ secrets.hubspot_personal_access_key }}
-            run: |
-              bin/generate-config.js
-              bin/deploy.sh
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+      - name: Install NPM deps
+        run: |
+            npm install
+      - name: Generate hubspot.config.yml and deploy
+        env:
+          HUBSPOT_PORTAL_ID: ${{ secrets.hubspot_portal_id }}
+          HUBSPOT_API_KEY: ${{ secrets.hubspot_personal_access_key }}
+        run: |
+          bin/generate-config.js
+          bin/deploy.sh
