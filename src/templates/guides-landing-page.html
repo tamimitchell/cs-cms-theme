@@ -1,0 +1,14 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Guides Landing Page
+  screenshotPath: ../images/template-previews/guides-landing-page.png
+-->
+{% extends './layouts/base.html' %}
+
+{% block body %}
+  {% include './partials/guides-landing-page/hero.html' %}
+  {% include './partials/guides-landing-page/value.html' %}
+  {% include './partials/guides-landing-page/faq.html' %}
+  {% include './partials/guides-landing-page/fta.html' %}
+{% endblock body %}

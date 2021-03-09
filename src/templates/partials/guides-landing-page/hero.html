@@ -1,0 +1,100 @@
+<div class="gl-hero">
+  <div class="w-container">
+
+    <div class="gl-header-logo">
+      {% module "Logo" path="@hubspot/linked_image", 
+        label="Logo", 
+        extra_classes="footer-logo", 
+        img={ 
+          src: "https://assets.website-files.com/5f33100f947c8a488735d14a/602c274c2904391bc6a6f379_ClockShark%20Blue%20Horizontal%20Logo%20Large%203x%201-2.png",
+          alt: "ClockShark Logo", 
+          width: 358,
+          height: 60
+        }
+      %}
+    </div>
+
+    <div class="gl-hero-wrapper">
+      <div class="gl-hero-left-column">
+
+        {% module "Category" path='@hubspot/text',
+          label="Category",
+          extra_classes="gl-category", 
+          value="Free Download" 
+        %}
+
+        <h1 class="gl-title">
+          {% module "Title" path='@hubspot/text',
+            label="Title",
+            value="The True Cost of Time Clock Rounding That Every Business Owner Should Know" 
+          %}
+        </h1>
+
+        {% module "Subtitle" path='@hubspot/text',
+          label="Subtitle",
+          extra_classes="gl-subtitle",
+          value="An overview of basic principles you need to be a better business owner" 
+        %}
+
+        {% module "Book Cover Mobile" path="@hubspot/linked_image", 
+          label="Book Cover (Mobile View Only)", 
+          extra_classes="gl-book-image-mobile", 
+          img={ 
+            src: "https://assets.website-files.com/5f33100f947c8a488735d14a/604045ab9eb3c52bb2dbd0d9_Letter%20-%201%20(2)%202-3.png",
+            width: "174px",
+            height: "100vw"
+          }
+        %}
+
+        <div class="gl-hero-cta-wrapper">
+          {% module "cta" path="@hubspot/cta", 
+            label="CTA",
+            guid="3b1790fc-4444-44e7-a975-e69263eb6be5"
+          %}
+        </div>
+
+        <div class="gl-list-wrapper">
+
+          <h2 class="gl-list-title">
+            {% module "List Title" path='@hubspot/text',
+              label="List Title",
+              value="In this guide, you will learn:" 
+            %}
+          </h2>
+
+          {% module "Learn List" path="/CS Theme/modules/Icon List", 
+            label="Icon List",
+            list_items=[
+              {
+                text_field: "An overview of basic principles you need to be a better business"
+              },
+              {
+                text_field: "An overview of basic principles you need to be a better business"
+              },
+              {
+                text_field: "An overview of basic principles you need to be a better business"
+              },
+              {
+                text_field: "An overview of basic principles you need to be a better business"
+              },
+              {
+                text_field: "An overview of basic principles you need to be a better business"
+              }              
+            ]
+          %}
+        </div>
+      </div>
+      <div class="gl-hero-right-column">
+        {% module "Book Cover" path="@hubspot/linked_image", 
+          label="Book Cover", 
+          extra_classes="gl-book-image", 
+          img={ 
+            src: "https://assets.website-files.com/5f33100f947c8a488735d14a/604045ab9eb3c52bb2dbd0d9_Letter%20-%201%20(2)%202-3.png",
+            width: 337,
+            height: 449
+          }
+        %}
+      </div>
+    </div>
+  </div>
+</div>
