@@ -20,6 +20,8 @@
     {# Webflow CSS #}
     {{ require_css(config.webflow_css_url) }}
 
+    {{ require_css(get_asset_url("../../css/custom.css")) }}
+
     {# To see a full list of what is included via standard_header_includes please reference this article: https://developers.hubspot.com/docs/cms/hubl/variables#required-page-template-variables #}
     {{ standard_header_includes }}
 

@@ -1,3 +1,8 @@
+<!--
+    templateType: page
+    isAvailableForNewContent: false
+-->
+<!-- Begin partial -->
 <div class="gl-hero">
   <div class="w-container">
 
@@ -47,8 +52,8 @@
         %}
 
         <div class="gl-hero-cta-wrapper">
-          {% module "cta" path="@hubspot/cta", 
-            label="CTA",
+          {% module "Hero CTA" path="@hubspot/cta", 
+            label="Hero CTA",
             guid="3b1790fc-4444-44e7-a975-e69263eb6be5"
           %}
         </div>
@@ -62,8 +67,8 @@
             %}
           </h2>
 
-          {% module "Learn List" path="/CS Theme/modules/Icon List", 
-            label="Icon List",
+          {% module "Learn List" path="/CS Theme/modules/GL Icon List", 
+            label="Learn List",
             list_items=[
               {
                 text_field: "An overview of basic principles you need to be a better business"
@@ -98,3 +103,4 @@
     </div>
   </div>
 </div>
+<!-- End partial -->

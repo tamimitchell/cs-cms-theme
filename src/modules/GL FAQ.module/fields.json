@@ -1,0 +1,45 @@
+[ {
+  "id" : "136888f7-5d75-2264-1ca3-eca4ce338957",
+  "name" : "list_items",
+  "label" : "List Items",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "5596bb77-5af3-7128-9d9c-01537b98451c",
+    "name" : "text_field",
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "4bc43942-6ec6-66d0-6fd2-1b52479e60cf",
+  "name" : "icon",
+  "label" : "Icon",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://f.hubspotusercontent00.net/hubfs/2591358/604040aa77ebcb7032ec18de_check.png",
+    "alt" : "Checkmark",
+    "loading" : "lazy",
+    "width" : 21,
+    "height" : 18
+  }
+} ]

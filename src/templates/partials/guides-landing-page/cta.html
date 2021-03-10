@@ -1,8 +1,28 @@
+<!--
+    templateType: page
+    isAvailableForNewContent: false
+-->
+<!-- Begin partial -->
 <div class="gl-cta">
   <div class="container w-container">
     <div class="gl-cta-wrapper">
-      <h2 class="gl-cta-header">Download Your Free Guide Today!</h2>
-      <div class="gl-cta-button-wrapper"><a href="#" class="cta-orange-button w-button">Get Your Free Guide Now</a></div>
+
+      <h2 class="gl-cta-header">
+        {% module "CTA Header" path='@hubspot/text',
+          label="CTA Header",
+          no_wrapper=true,
+          value="Download Your Free Guide Today!" 
+        %}
+      </h2>
+
+      <div class="gl-cta-button-wrapper">
+        {% module "Footer CTA" path="@hubspot/cta", 
+          label="Footer CTA",
+          guid="3b1790fc-4444-44e7-a975-e69263eb6be5"
+        %}
+      </div>
+
     </div>
   </div>
 </div>
+<!-- End partial -->
