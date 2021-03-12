@@ -1,5 +1,5 @@
 <!--
-  templateType: page
+  templateType: "page"
   isAvailableForNewContent: true
   label: Guides Landing Page
   screenshotPath: ../images/template-previews/guides-landing-page.png
@@ -11,4 +11,7 @@
   {% include './partials/guides-landing-page/value.html' %}
   {% include './partials/guides-landing-page/faq.html' %}
   {% include './partials/guides-landing-page/cta.html' %}
+
+  {# need dnd_area to migrate existing pages, should be able to remove later #}
+  <div style="display: none">{% dnd_area "content_area" %}{% end_dnd_area %}</div>
 {% endblock body %}
