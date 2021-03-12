@@ -1,18 +1,9 @@
-<div class="gl-learn-list">
-  {% for item in module.list_items %}
-    <div class="gl-learn-list-item">
-      {% if module.icon.src %}
-        {% set sizeAttrs = 'width="{{ module.icon.width }}" height="{{ module.icon.height }}"' %}
-        {% if module.icon.size_type == 'auto' %}
-          {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
-        {% elif module.icon.size_type == 'auto_custom_max' %}
-          {% set sizeAttrs = 'width="{{ module.icon.max_width }}" height="{{ module.icon.max_height }}" style="max-width: 100%; height: auto;"' %}
-        {% endif %}
-        {% set loadingAttr = module.icon.loading != 'disabled' ? 'loading="{{ module.icon.loading }}"' : '' %}
-        <img class="gl-checkmark" src="{{ module.icon.src }}" alt="{{ module.icon.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
-      {% endif %}
+<div class="gl-faq-wrapper">
+  <h3 class="gl-faq-header">{% inline_text field="header" value="{{ module.header }}" %}</h3>
 
-      <p class="gl-learn-list-par">{{ item.text_field }}</p>
-    </div>
+  {% for item in module.items %}
+    <h4 class="gl-faq-question">{{ item.question }}</h4>
+  
+    <p class="gl-faq-answer">{{ item.answer }}</p>
   {% endfor %}
 </div>

@@ -3,6 +3,6 @@
   "smart_type" : "NOT_SMART",
   "host_template_types" : [ "PAGE", "EMAIL" ],
   "module_id" : 42786882364,
-  "label" : "Icon List",
+  "label" : "GL FAQ",
   "is_available_for_new_content" : true
 }
