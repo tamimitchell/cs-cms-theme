@@ -1,5 +1,5 @@
 {
-  "label": "ClockShark CMS Theme",
+  "label": "ClockShark CMS Theme (YourLabel)",
   "preview_path": "./templates/guides-landing-page.html",
   "screenshot_path": "./images/template-previews/guides-landing-page.png",
   "enable_domain_stylesheets": false,

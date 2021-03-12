@@ -1,3 +1,5 @@
+src/theme.json
+
 ### OSX ###
 # General
 .DS_Store
@@ -128,3 +130,4 @@ hubspot.config.yml
 # Lock files
 package-lock.json
 yarn.lock
+src/theme.json
