@@ -1,0 +1,24 @@
+[ {
+  "id" : "f0ed7123-2b6f-de36-e037-59845048c1e9",
+  "name" : "button_text",
+  "label" : "CS - Popup for Download Guide",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Get Your Free Guide Now",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Get Your Free Guide Now"
+}, {
+  "id" : "352d324f-859e-8692-ac8e-d1481452e8fc",
+  "name" : "hubspot_form_id",
+  "label" : "HubSpot Form ID",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "27a09955-6324-490a-8ca3-9f6ff6c331d5"
+} ]
